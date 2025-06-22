@@ -1,0 +1,156 @@
+.hover-image   {
+    position: absolute;
+        top: 450px;   /* ห่างจากขอบบน 300px */
+        left: 860px;  /* ห่างจากขอบซ้าย 200px */
+}
+
+.LFC {
+    margin: auto;
+}
+body {
+    background-image: url(https://st2.depositphotos.com/2352423/44358/i/450/depositphotos_443583198-stock-photo-top-view-football-field.jpghttps://st2.depositphotos.com/2352423/44358/i/450/depositphotos_443583198-stock-photo-top-view-football-field.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 80px;
+    background-size: 800px;
+}
+
+.Nunez {
+            width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+            position: absolute;
+             top: 275px;   
+             left: 930px;  
+
+}
+.Nunez:hover {
+    transform: scale(1.1);
+}
+
+.Dias {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 100px;   /* ห่างจากขอบบน 300px */
+        left: 860px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Dias:hover {
+    transform: scale(1.1);
+}
+.Gar {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 100px;   /* ห่างจากขอบบน 300px */
+        left: 670px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Gar:hover {
+    transform: scale(1.1);
+}
+.Mac {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 275px;   /* ห่างจากขอบบน 300px */
+        left: 730px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Mac:hover {
+    transform: scale(1.1);
+}
+.Szo {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 450px;   /* ห่างจากขอบบน 300px */
+        left: 670px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Szo:hover {
+    transform: scale(1.1);
+}
+.Ro {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 100px;   /* ห่างจากขอบบน 300px */
+        left: 510px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Ro:hover {
+    transform: scale(1.1);
+}
+.Ko {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 210px;   /* ห่างจากขอบบน 300px */
+        left: 425px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Ko:hover {
+    transform: scale(1.1);
+}
+.Van {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 350px;   /* ห่างจากขอบบน 300px */
+        left: 425px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Van:hover {
+    transform: scale(1.1);
+}
+.Tren {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 450px;   /* ห่างจากขอบบน 300px */
+        left: 510px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Tren:hover {
+    transform: scale(1.1);
+}
+.Ali {
+     width: 90px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 285px;   /* ห่างจากขอบบน 300px */
+        left: 290px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.Ali:hover {
+    transform: scale(1.1);
+}
+.cob {
+     width: 200px;
+            transition: transform 0.3s ease; /* ทำให้การขยับลื่น */
+            align-items: center;
+    position: absolute;
+        top: 190px;   /* ห่างจากขอบบน 300px */
+        left: 30px;  /* ห่างจากขอบซ้าย 200px */
+
+}
+.cob:hover {
+    transform: scale(1.1);
+}
+.Coach {
+    font-size: xx-large;
+    position: absolute;
+        left: 70px;
+    
+}

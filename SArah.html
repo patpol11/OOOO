@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Salah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+        }
+        h1 {
+            text-align: center;
+            color: #d90429;
+            font-size: 2rem;
+            margin: 1.5rem 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .section {
+            
+            flex: 1;
+            min-width: 280px;
+        }
+        .image-section img, 
+        .trophy-section img {
+            display: block;
+            width: 300px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            
+        }
+        .scoreboard {
+            background-color: #e9ecef;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid #bbb;
+            font-size: 0.95rem;
+        }
+        .scoreboard h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .scoreboard h3 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #343a40;
+            font-size: 1.1rem;
+        }
+        .scoreboard ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+        .scoreboard li {
+            margin-bottom: 0.5rem;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .container {
+                flex-direction: column;
+                padding: 1rem 0.5rem;
+            }
+            .scoreboard {
+                font-size: 1rem;
+            }
+        }
+       .ball-container {
+    position: relative;
+    width: 100px;
+    overflow: hidden;
+    background-color: #fefefe;
+    margin-bottom: 10px;
+}
+
+.ball-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: #fefefe;
+    margin-bottom: 10px;
+}
+
+.ball {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #d90429; /* สีแดง */
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    animation: moveBall 5s linear infinite alternate;
+}
+
+@keyframes moveBall {
+    0% {
+        left: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: calc(100% - 30px);
+        transform: rotate(360deg);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="ball-container">
+    <img src="data:image/png;base64,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" class="ball" alt="Football">
+</div>
+
+</div>
+
+    <h1>Mohamed Salah</h1>
+    <div class="container">
+
+        <div class="section image-section">
+            <img src="PNG/mo1.jpg" alt="Mohamed Salah">
+        </div>
+
+        <div class="section score-section">
+            <div class="scoreboard">
+                <h2>สถิติและสกอร์</h2>
+                <h3>สโมสรลิเวอร์พูล</h3>
+                <ul>
+                    <li>ลงเล่นทั้งหมด: 300 นัด</li>
+                    <li>ยิงประตู: 186 ประตู</li>
+                    <li>แอสซิสต์: 75 ครั้ง</li>
+                </ul>
+                <h3>ทีมชาติอียิปต์</h3>
+                <ul>
+                    <li>ลงเล่นทั้งหมด: 93 นัด</li>
+                    <li>ยิงประตู: 51 ประตู</li>
+                    <li>แอสซิสต์: 27 ครั้ง</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section trophy-section">
+            <div class="section trophy-section">
+    <div class="scoreboard">
+        <h2>รางวัลส่วนตัว</h2>
+
+        <h3>Golden Boot <span style="float: right;">3 ครั้ง</span></h3>
+        <ul>
+            <li>2017/18</li>
+            <li>2018/19</li>
+            <li>2021/22</li>
+        </ul>
+
+        <h3>Player of the Season <span style="float: right;">2 ครั้ง</span></h3>
+        <ul>
+            <li>2017/18</li>
+            <li>2024/25</li>
+        </ul>
+
+        <h3>Goal of the Month <span style="float: right;">2 ครั้ง</span></h3>
+        <ul>
+            <li>2020/21</li>
+            <li>2021/22</li>
+        </ul>
+
+        <h3>Premier League Champion <span style="float: right;">2 ครั้ง</span></h3>
+        <ul>
+            <li>2019/20</li>
+            <li>2024/25</li>
+        </ul>
+
+        <h3>Player of the Month <span style="float: right;">7 ครั้ง</span></h3>
+        <ul>
+            <li>November 2017</li>
+            <li>February 2018</li>
+            <li>March 2018</li>
+            <li>October 2021</li>
+            <li>October 2023</li>
+            <li>November 2024</li>
+            <li>February 2025</li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+</body>
+</html>
